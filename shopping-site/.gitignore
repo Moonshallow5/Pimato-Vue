@@ -13,12 +13,7 @@ dist-ssr
 *.local
 
 # Editor directories and files
-<<<<<<< HEAD
 .vscode
-=======
-.vscode/*
->>>>>>> ab0fce6 (shopping website)
-!.vscode/extensions.json
 .idea
 .DS_Store
 *.suo
