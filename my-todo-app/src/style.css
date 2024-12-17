@@ -1,0 +1,78 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+ 
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 1em 1.2em;
+  font-size: 0.7em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  
+}
+
+
+button:hover {
+  border-color: #646cff;
+}
+
+.cancel-btn{
+  position: absolute;
+  top:115px;
+  right: 10px;
+  color: red;
+  text-align: right;
+  background-color: lightgrey;
+  margin-bottom: 100px;
+
+}
+.add-btn{
+  text-align: center;
+
+  padding: 1em 1.2em;
+  margin-bottom: 10px;
+  display: block;
+  z-index: 10;
+}
+
+ul{
+  padding: 0;
+  margin-top: 0;
+}
+
+
+.all{
+  padding-top: 1em;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  position: relative;
+  
+}
