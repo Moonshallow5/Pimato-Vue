@@ -43,8 +43,7 @@ export default {
 
   methods: {
     addToCart(item) {
-      console.log("Item added:", item);
-      // Check if item is already in the cart
+      console.log("Item added:", item);// for debugging
       const existingItem = this.cart.find(cartItem => cartItem.id === item.id);
       if (existingItem) {
         existingItem.quantity += item.quantity; // Update quantity
@@ -59,11 +58,20 @@ export default {
 
 <style>
 .navbar {
-  background-color: #f8f9fa;
+  background-color:lightseagreen;
   padding: 10px;
   display: flex;
   gap: 20px;
   font-size: 18px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px;
+
+  
 }
 
 </style>

@@ -52,3 +52,16 @@ export default{
 
 
 </script>
+
+<style>
+
+
+.products{
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+  gap: 40px;
+
+}
+
+</style>

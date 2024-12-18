@@ -4,14 +4,15 @@
 <template>
 
     <div class="cards">
-        <img :src="productss.image" alt="Girl in a jacket">
+        <img :src="productss.image" alt={{productss.title}} width="200px" height="300px">
         <h2>{{ productss.title }}</h2>
         
         <router-link :to="`/product/${productss.id}`">View Details</router-link>
+        <br>
         
         <label for="quantity">Quantity:</label>
 
-        <input type="number" v-model.number="quantity" min="1"/>
+        <input type="number" v-model.number="quantity" min="1" width="20px"/>
         <button @click="addToCart">Add To Cart</button>
 
 
