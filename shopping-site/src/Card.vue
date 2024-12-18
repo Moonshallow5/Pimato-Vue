@@ -3,6 +3,8 @@
 
 <template>
 
+    <!-- Each product will have this layout -->
+
     <div class="cards">
         <img :src="productss.image" alt={{productss.title}} width="200px" height="300px">
         <h2>{{ productss.title }}</h2>

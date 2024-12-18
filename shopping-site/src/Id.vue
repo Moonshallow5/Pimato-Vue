@@ -12,6 +12,8 @@
 
     methods:{
 
+      //Updating the cart from the input
+
       addToCart(){
           
           this.$emit('add-to-cart', { 
@@ -40,7 +42,9 @@
   </script>
 
 <template>
+
     
+    <!-- Code shows how the Image and text is displayed after pressing "View Details" -->
       <img :src="productss.image" alt="Product Image"  width="300px" height="400px"/>
       <h1>{{ productss.title }}</h1>
       <p>{{ productss.description }}</p>

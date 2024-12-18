@@ -2,6 +2,8 @@
 
 
 <div v-if="cart.length > 0" class="cart">
+
+  <!-- Displays the output of the cart -->
     
       <h2>Shopping Cart</h2>
       <ul>
@@ -24,6 +26,7 @@
 export default{
 
     props:['cart'],
+    //Shows the total price in the cart
 
     computed: {
     totalCartPrice() {

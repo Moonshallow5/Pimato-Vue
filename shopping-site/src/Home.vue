@@ -6,6 +6,7 @@
     
     <h1>Products</h1>
     <div class="products">
+      <!-- Displays all the products in a neat manner in the home-page -->
       <Card
         v-for="product in products_list" 
         :key="product.id"
